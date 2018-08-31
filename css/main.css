@@ -523,6 +523,11 @@ textarea {
   src: url("../fonts/replica/ReplicaStd-Bold.woff");
   font-weight: bold; }
 
+@font-face {
+  font-family: 'Replica';
+  src: url("../fonts/replica/ReplicaStd-Light.woff");
+  font-weight: 300; }
+
 body {
   background-color: black;
   font-size: 1.4em; }
@@ -557,7 +562,7 @@ body {
     height: 10vh; }
 
 .conteudo-do-slide {
-  font-family: 'Replica', 'Raleway', sans-serif;
+  font-family: 'Replica', sans-serif;
   color: white;
   text-transform: uppercase;
   margin-top: 30vh;
@@ -569,7 +574,7 @@ body {
   margin-bottom: .3em; }
 
 #btn-resereva {
-  font-family: 'Replica', 'Raleway', sans-serif;
+  font-family: 'Replica', sans-serif;
   color: white;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -608,11 +613,16 @@ body {
   #location a {
     text-decoration: none;
     color: white; }
-  #location img {
+  #location a.phone span {
+    font-weight: 300; }
+  #location img.pin {
     width: 1.5em;
     margin-bottom: .4em; }
+  #location img.phone {
+    width: 1.1em;
+    margin-right: .1em; }
   #location p {
-    font-family: 'Replica', 'Raleway', sans-serif;
+    font-family: 'Replica', sans-serif;
     color: white;
     text-transform: uppercase;
     margin: 0; }

@@ -1678,6 +1678,13 @@
 		"oAP": "\/fonts\/replica\/ReplicaStd-Light.otf",
 		"oF": 0
 		},
+	"\/fonts\/replica\/ReplicaStd-Light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/replica\/ReplicaStd-Light.woff",
+		"oF": 0
+		},
 	"\/fonts\/replica\/ReplicaStd-LightItalic.otf": {
 		"cB": 0,
 		"ft": 8192,
@@ -1739,6 +1746,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/logo-zazah.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/telefone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/telefone.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1896,7 +1913,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 556722414,
-	"displayValue": "zazah-gv",
+	"displayValue": "zazahgv",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-maroney",
 	"iconImageWasSetByUser": 0

@@ -12,9 +12,14 @@
     src: url("../fonts/replica/ReplicaStd-Bold.woff");
     font-weight: bold;
 }
+@font-face {
+    font-family: 'Replica';
+    src: url("../fonts/replica/ReplicaStd-Light.woff");
+    font-weight: 300;
+}
 
 @mixin estilo-texto {
-  font-family: 'Replica', 'Raleway', sans-serif;
+  font-family: 'Replica', sans-serif;
   color: white;
   text-transform: uppercase;
 }
@@ -94,9 +99,18 @@ body {
     text-decoration: none;
     color: white;
   }
-  img {
+  a.phone {
+    span {
+      font-weight: 300;
+    }
+  }
+  img.pin {
     width: 1.5em;
     margin-bottom: .4em;
+  }
+  img.phone {
+    width: 1.1em;
+    margin-right: .1em;
   }
   p {
     @include estilo-texto;
