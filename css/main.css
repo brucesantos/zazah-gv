@@ -559,7 +559,7 @@ body {
   display: flex;
   justify-content: center; }
   #logo img {
-    height: 10vh; }
+    height: 10vmin; }
 
 .conteudo-do-slide {
   font-family: 'Replica', sans-serif;
