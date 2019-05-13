@@ -5,7 +5,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
 html {
   line-height: 1.15;
   /* 1 */
@@ -514,118 +513,40 @@ textarea {
   h3 {
     page-break-after: avoid; } }
 
-@font-face {
-  font-family: 'Replica';
-  src: url("../fonts/replica/ReplicaStd-Regular.woff"); }
-
-@font-face {
-  font-family: 'Replica';
-  src: url("../fonts/replica/ReplicaStd-Bold.woff");
-  font-weight: bold; }
-
-@font-face {
-  font-family: 'Replica';
-  src: url("../fonts/replica/ReplicaStd-Light.woff");
-  font-weight: 300; }
-
 body {
-  background-color: black;
-  font-size: 1.4em; }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #ccc;
+  font-size: 2em;
+  font-family: cursive; }
   @media (max-width: 1600px) {
     body {
-      font-size: 1.2em; } }
+      font-size: 1.7em; } }
   @media (max-width: 1200px) {
     body {
-      font-size: 1em; } }
+      font-size: 1.4em; } }
   @media (max-width: 900px) {
     body {
-      font-size: .8em; } }
+      font-size: 1.2em; } }
   @media (max-width: 600px) {
     body {
-      font-size: .7em; } }
+      font-size: 1em; } }
   @media (max-height: 400px) {
     body {
-      font-size: .6em; } }
+      font-size: .9em; } }
+  body p {
+    text-align: center;
+    color: #777; }
 
-.swiper-container {
-  width: 100%;
-  height: 100vh; }
+.container {
+  text-align: center; }
 
-#logo {
-  position: absolute;
-  z-index: 2;
-  top: 5vh;
-  width: 100%;
-  display: flex;
-  justify-content: center; }
-  #logo img {
-    height: 10vmin; }
-
-.conteudo-do-slide {
-  font-family: 'Replica', sans-serif;
-  color: white;
-  text-transform: uppercase;
-  margin-top: 30vh;
-  margin-left: 5%; }
-
-.tagline {
-  line-height: .9;
-  font-size: 4em;
-  margin-bottom: .3em; }
-
-#btn-resereva {
-  font-family: 'Replica', sans-serif;
-  color: white;
-  text-transform: uppercase;
-  font-size: 1.2em;
-  text-decoration: none;
-  padding: .5em 1em;
-  border: 1px solid white;
-  transition: all .3s; }
-  #btn-resereva:hover {
-    background-color: rgba(255, 255, 255, 0.15); }
-
-#slide_01 {
-  background: url("../img/zazah_01.jpg") center center no-repeat;
-  background-size: cover; }
-
-#slide_02 {
-  background: url("../img/zazah_02.jpg") center center no-repeat;
-  background-size: cover; }
-
-#slide_03 {
-  background: url("../img/zazah_03.jpg") center center no-repeat;
-  background-size: cover; }
-
-#slide_04 {
-  background: url("../img/zazah_04.jpg") center center no-repeat;
-  background-size: cover; }
-
-#slide_05 {
-  background: url("../img/zazah_05.jpg") center center no-repeat;
-  background-size: cover; }
-
-#location {
-  position: fixed;
-  z-index: 2;
-  bottom: 5%;
-  left: 5%; }
-  #location a {
-    text-decoration: none;
-    color: white; }
-  #location a.phone span {
-    font-weight: 300; }
-  #location img.pin {
-    width: 1.5em;
-    margin-bottom: .4em; }
-  #location img.phone {
-    width: 1.1em;
-    margin-right: .1em; }
-  #location p {
-    font-family: 'Replica', sans-serif;
-    color: white;
-    text-transform: uppercase;
-    margin: 0; }
-
-.swiper-pagination-bullet-active {
-  background-color: white; }
+#broken_heart {
+  display: block;
+  min-width: 200px;
+  width: 50%;
+  max-width: 600px;
+  margin: auto; }
